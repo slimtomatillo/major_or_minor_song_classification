@@ -81,7 +81,7 @@ def extract(path_to_songs_string, clip_length_in_seconds, path_for_sliced_clips)
     d_count = 1
 
     # Go through each song (to split)
-    for song_path in sorted(list_of_paths)[2330:]:
+    for song_path in sorted(list_of_paths):
         logging.info(song_path.split('/')[-1])
         logging.info(d_count)
         d_count +=1

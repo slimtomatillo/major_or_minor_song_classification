@@ -9,16 +9,16 @@ import logging
 logging.basicConfig(level=logging.INFO)
 
 # Set directory
-dir = '/Users/alexandrasmith/ds/metis/proj3_mcnulty/TEST'
+dir = '/Users/alexandrasmith/ds/metis/proj3_mcnulty/PROJ_FILES/major_or_minor_song_classification'
 
 # filepath_to_music --> Edit as needed
-filepath = ''
+filepath = 'sample_music_files'
 
-# desired_clip_length --> default = 30
+# desired_clip_length --> Edit as needed (suggested: 30)
 clip_sec = 30
 
 # path_for_sliced_clips --> Edit as needed
-export_path = ''
+export_path = 'sample_music_files_sliced'
 
 def main(filepath_to_music, desired_clip_length, path_for_sliced_clips):
     """
