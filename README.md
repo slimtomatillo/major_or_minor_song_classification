@@ -2,14 +2,17 @@
   
 ### If using included sample songs:  
 1. Clone repo
-2. Run main.py
-3. View results (30_sec_data.csv, 30_sec_performance.csv 30_sec_holdout.csv --> these will be created after main.py is run)  
-  
-### If using own songs:  
-1. Delete songs in sample_music_files
-2. Put songs to be used in sample_music_files (**Note:** If you change the name of this folder, make sure to also change it at top of main.py; same goes for changing the name of folder sample_music_files_sliced)
+2. Add folder called sample_music_files_sliced in cloned repo (**Note:** Must have exact spelling; if you want to name the folder something else, make sure to also change it at top of main.py)
 3. Run main.py
 4. View results (30_sec_data.csv, 30_sec_performance.csv 30_sec_holdout.csv --> these will be created after main.py is run)  
+  
+### If using own songs:  
+1. Clone repo
+2. Add folder called sample_music_files_sliced in cloned repo (**Note:** Must have exact spelling; if you want to name the folder something else, make sure to also change it at top of main.py)
+3. Delete songs in sample_music_files
+4. Put songs to be used in sample_music_files (**Note:** If you change the name of this folder, make sure to also change it at top of main.py; same goes for changing the name of folder sample_music_files_sliced)
+5. Run main.py
+6. View results (30_sec_data.csv, 30_sec_performance.csv 30_sec_holdout.csv --> these will be created after main.py is run)  
   
 **Note:** Names of files containing results will reflect parameter of clip_sec in main.py and may not match the file names in the 'View results' steps above  
   
