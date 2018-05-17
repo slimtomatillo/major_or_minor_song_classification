@@ -23,6 +23,8 @@ One of my personal goals for this project was to create .py files in PyCharm tha
 **Tools**  
   
 The main tools that I used in addition to Python, PyCharm, and Jupyter Notebook were Pandas, Librosa, Pydub, and Scikit-Learn. I decided to use Librosa and Pydub for working with raw audio files after doing several hours of research into the different tools available in the fields of DSP and MIR. Librosa has a wide variety of functions that allow for an in-depth analysis of audio files, which allowed me to become familiar with the specific challenges and fascinating parts of working with audio signal processing.
+
+I directly used a function in my code to estimate the key from a pitch class distribution, written by bmcfee (Brian McFee).  Thank you for the awesome work Brian! https://gist.github.com/bmcfee/1f66825cef2eb34c839b42dddbad49fd
   
 **Algorithm / Results**  
   
