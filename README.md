@@ -16,7 +16,7 @@
   
 **Note:** Names of files containing results will reflect parameter of clip_sec in main.py and may not match the file names in the 'View results' steps above  
   
-# Is it Major or Minor? Classifying the Mode of a Song  
+# Major or Minor? Classifying the Mode of a Song  
 ### By Alex Smith  
   
 **Overview: Problem and Background**  
