@@ -47,11 +47,11 @@ In total, I built, trained, tested, and evaluated 13 classification models. The 
   
 The performance metric that I optimized for was accuracy, as the problem I am addressing does not have high costs for misclassification. The three models with the highest accuracy scores can be seen below:
   
-<img width="422" alt="screen shot 2018-05-16 at 5 50 17 pm" src="https://user-images.githubusercontent.com/34464435/40150973-d18edf96-5931-11e8-8f88-4783569b5af4.png">
+<img width="540" alt="screen shot 2018-05-18 at 11 01 18 am" src="https://user-images.githubusercontent.com/34464435/40250362-e15ac35e-5a8a-11e8-93b8-7ef9be371eca.png">
   
 I tested the performance of these three models with my holdout data and these were the final results:  
   
-<img width="228" alt="screen shot 2018-05-16 at 5 50 29 pm" src="https://user-images.githubusercontent.com/34464435/40150988-f29807e4-5931-11e8-9ef7-2219273f7926.png">
+<img width="296" alt="screen shot 2018-05-18 at 11 01 30 am" src="https://user-images.githubusercontent.com/34464435/40250377-e9e91804-5a8a-11e8-87d1-34334e2160e8.png">
   
 Though my Optimized Decision Tree model and my optimized Random Forest model performed equally well, the higher levels of interpretability and simplicity of the Decision Tree model let me to choosing this as by best model. Comparing the AUC scores between all my models confirmed my previous findings that Optimized Decision Tree and Optimized Random Forest were the best performing models.
   
