@@ -38,8 +38,6 @@ One of my personal goals for this project was to create .py files in PyCharm tha
 **Tools**  
   
 The main tools that I used in addition to Python, PyCharm, and Jupyter Notebook were Pandas, Librosa, Pydub, and Scikit-Learn. I decided to use Librosa and Pydub for working with raw audio files after doing several hours of research into the different tools available in the fields of DSP and MIR. Librosa has a wide variety of functions that allow for an in-depth analysis of audio files, which allowed me to become familiar with the specific challenges and fascinating parts of working with audio signal processing.
-
-I directly used a function in my code to estimate the key from a pitch class distribution, written by bmcfee (Brian McFee).  Thank you for the awesome work Brian! https://gist.github.com/bmcfee/1f66825cef2eb34c839b42dddbad49fd
   
 **Algorithm / Results**  
   
@@ -68,6 +66,12 @@ Moving forward, I would love to incorporate more mp3s into my dataset to train m
 1. Accuracy of Mode label (Major or Minor) in data - I found the accuracy of the automated labeling technique I was using to be about 70% based on a random sample (using other sources to confirm or reject the label or Major or Minor).  
   
 2. Setting up a Config file - This is something I really wanted to implement in my PyCharm code so that anyone could easily implement my model. However, it was outside of the scope of the project for me as I was not able to address it fully within the time frame.
+  
+**Sources**  
+  
+I directly used a function in my code to estimate the key from a pitch class distribution, written by bmcfee (Brian McFee). Thank you for the awesome work Brian! https://gist.github.com/bmcfee/1f66825cef2eb34c839b42dddbad49fd  
+  
+I also used Pydub to slice mp3s into various lengths. Thank you Pydub team! https://github.com/jiaaro/pydub  
   
 **Contact**  
   
