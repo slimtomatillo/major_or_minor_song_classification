@@ -65,7 +65,7 @@ Moving forward, I would love to incorporate more mp3s into my dataset to train m
   
 1. Accuracy of Mode label (Major or Minor) in data - I found the accuracy of the automated labeling technique I was using to be about 70% based on a random sample (using other sources to confirm or reject the label or Major or Minor).  
   
-2. Setting up a Config file - This is something I really wanted to implement in my PyCharm code so that anyone could easily implement my model. However, it was outside of the scope of the project for me as I was not able to address it fully within the time frame.
+2. Setting up a Config file - This is something I really wanted to implement in my PyCharm code so that anyone could easily implement my model. However, it was outside of the scope of the project for me as I was not able to address it fully within the time frame. I opted for a Quickstart Guide instead (at the top of this page), which proved sufficient for this project.
   
 **Sources**  
   
