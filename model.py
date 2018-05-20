@@ -47,6 +47,10 @@ def model(df_filename):
 
     Performance:
     Accuracy
+    Precision
+    Recall
+    F1 Score
+    AUC Score
 
     :param df_filename: str
 
@@ -917,5 +921,3 @@ def model(df_filename):
     print(holdout_results)
 
     return(model_perf, holdout_results)
-
-#model('/Users/alexandrasmith/ds/metis/proj3_mcnulty/TEST/30_sec_data.csv')
